@@ -4,43 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Web desing all</title>
+    <title>LojaWEB: onde vende tudo!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
 
-    <link rel="stylesheet" href="/Css/default.css">
-    <link rel="stylesheet" href="/Css/Style.css">
+
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body class="blue">
-    <maim>
-        <header>
-     <div class="logo"></div>
-            <img src="./Docs/MicrosoftTeams-image.png" alt="logomarca Amazon"
-            height="50">
-        </div>
-        <div class="localizaçao bg-gray/">
-        <div>
-        <div>
-            <span>Olá</span>
-            <span>selecione o endereço</span>
-        </div>
-        <div class="pesquisa white bg-gray">
-        </div>
-        <div>
-            <span>pesquisar itens</span>
-        </div>
-        <div class="Faça seu login ou cadastra-se"></div>
-        <div>
-            <span>Acessar conta Ou Cadastra-se</span>
-        </div>
-        <div>
-            <span>Pedidos</span>
-        </div>
-        <div class="pedidos"></div>            
-        </header>
-        <nav> 
-            
-        </nav>
-    </maim>
+<body class="black">
+    <main>
+        <header class="row">
+            <div class="logo col-2">
+                <img src="./Docs/MicrosoftTeams-image (1).png" alt="logomarca Amazon" height="50">
+            </div>
+            <div class="localizacao col-2">
+                <div>
+                    <i class="fa fa-map-marker-alt"></i>
+                    <!-- <img src="./img/map-svgrepo-com.svg" alt=""> -->
+                </div>
+                <div>
+                    <span>Olá,</span>
+                    <span>Selecione o endereço</span>
+                </div>
+            </div>
+            <div class="pesquisa col-4">
+                <form action="" class="formPerquisa">
+                    <label for="selectTipo"></label>
+                    <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
+                        <option value="0" selected>
+                            Todos
+                        </option>
+                        <option value="1">
+                            Eletrônicos
+                        </option>
+                        <option value="2">
+                            Casa
+                        </option>
+                        <option value="3">
+                            limpeza
+                        </option>
+                        <option value="4">
+                            Música
+                        </option>
+                        <option value="5">
+                            Outros...
+                        </option>
+                    </select>
 
+                    <label for="nomeProduto"></label>
+                    <input type="text" name="nomeProduto" id="nomeProduto" title="Nome do Produto"
+                        placeholder="Nome do produto">
+
+                    <!-- <label for=""></label> -->
+                    <!-- <input type="submit" value=""> -->
+                    <button type="submit" title="Fazer Pesquisa">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="login col-2">
+                <span>
+                    Olá, faça seu login ou <cadastra-se>
+                </span>
+                <span>
+                    Cadastra-se
+                </span>
+            </div>
+            <div class="pedidos col-1">
+                <span>Devoluções</span>
+                <span>e Pedidos</span>
+            </div>
+    
+        </header>
+        <nav>
+
+        </nav>
+    </main>
 </body>
+
+<body>
+    <header>
+      <nav>
+        <a class="logo" href="/">Bem vindo(a)</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Prime Day</a></li>
+          <li><a href="#">Promoções</a></li>
+          <li><a href="#">Prime Vídeo</a></li>
+          <li><a href="#">Outros</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
+  </body>
 </html>
+
+<h1>Informações sugeridas</h1>
+<div class="container">
+  <button class="arrow-left control" aria-label="Previous image"></button>
+  <button class="arrow-right control" aria-label="Next Image"></button>
+  <div class="gallery-wrapper">
+    <div class="gallery">
+      <!--       <div class="item current-item cyan"></div>
+      <div class="item deeppink"></div>
+      <div class="item turquoise"></div>
+      <div class="item darkblue"></div>
+      <div class="item purple"></div> -->
+      <img src="https://imagens-revista.vivadecora.com.br/uploads/2018/07/Confira-diferentes-formar-de-realizar-a-limpeza-de-casa.-Fonte-Pinterest.jpeg" alt="Beach Image" class="item current-item">
+    </div>
+  </div>
+</div>
