@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,15 @@
     <title>LojaWEB: onde vende tudo!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
 
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
 
+    <link rel="stylesheet" href="/css/root.css">
     <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/colors.css">
 </head>
 
 <body class="black">
@@ -24,7 +31,7 @@
                     <!-- <img src="./img/map-svgrepo-com.svg" alt=""> -->
                 </div>
                 <div>
-                    <span>Olá,</span>
+                    <span>Olá</span>
                     <span>Selecione o endereço</span>
                 </div>
             </div>
@@ -41,15 +48,6 @@
                         <option value="2">
                             Casa
                         </option>
-                        <option value="3">
-                            limpeza
-                        </option>
-                        <option value="4">
-                            Música
-                        </option>
-                        <option value="5">
-                            Outros...
-                        </option>
                     </select>
 
                     <label for="nomeProduto"></label>
@@ -65,58 +63,87 @@
             </div>
             <div class="login col-2">
                 <span>
-                    Olá, faça seu login ou <cadastra-se>
+                    Olá, faça seu login
                 </span>
                 <span>
-                    Cadastra-se
+                    Contas e Listas
                 </span>
             </div>
             <div class="pedidos col-1">
                 <span>Devoluções</span>
                 <span>e Pedidos</span>
             </div>
-    
+            <div class="carrinho col-1">
+                <span><img src="./Docs/icons8-carrinho-de-compras-48.png" alt=""></span>
+            </div>
         </header>
-        <nav>
+        <nav class="row bg-blue">
+            <ul class="menu white col-8">
+                <li>
+                    <button title="menu">
+                        <i class="fa fa-solid fa-bars"></i>
+                        <span>Todos</span>
+                    </button>
+                </li>
+                <li>
+                    <a href="">
+                        Venda na Amazon
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Mais Vendidos
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Prime
+                        <i class="fa fa-solid fa-caret-down"></i>
+                    </a>
+                </li>
+            </ul>
 
+            <ul class="menu white col-4 promocional right">
+                <li>
+                    <a href="promocional.html">
+                        <img src="img/0118_SC22_SWM2_400x39._CB612360418_.jpg" alt="promocional" height="30"
+                            class="w-100">
+                    </a>
+                </li>
+            </ul>
         </nav>
+
+        <section class="container row">
+            <div class="carousel col-12">
+                carousel
+            </div>
+            <div class="produtos col-12">
+                <div class="produto col-3 ">
+                    <div class="produto-item">
+                        produto 1
+                    </div>
+                </div>
+
+                <div class="produto col-3 ">
+                    <div class="produto-item">
+                        produto 2
+                    </div>
+                </div>
+
+                <div class="produto col-3 ">
+                    <div class="produto-item">
+                        produto 3
+                    </div>
+                </div>
+
+                <div class="produto col-3 ">
+                    <div class="produto-item">
+                        produto 4
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
-<body>
-    <header>
-      <nav>
-        <a class="logo" href="/">Bem vindo(a)</a>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav-list">
-          <li><a href="#">Prime Day</a></li>
-          <li><a href="#">Promoções</a></li>
-          <li><a href="#">Prime Vídeo</a></li>
-          <li><a href="#">Outros</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
-    <script src="mobile-navbar.js"></script>
-  </body>
 </html>
-
-<h1>Informações sugeridas</h1>
-<div class="container">
-  <button class="arrow-left control" aria-label="Previous image"></button>
-  <button class="arrow-right control" aria-label="Next Image"></button>
-  <div class="gallery-wrapper">
-    <div class="gallery">
-      <!--       <div class="item current-item cyan"></div>
-      <div class="item deeppink"></div>
-      <div class="item turquoise"></div>
-      <div class="item darkblue"></div>
-      <div class="item purple"></div> -->
-      <img src="https://imagens-revista.vivadecora.com.br/uploads/2018/07/Confira-diferentes-formar-de-realizar-a-limpeza-de-casa.-Fonte-Pinterest.jpeg" alt="Beach Image" class="item current-item">
-    </div>
-  </div>
-</div>
