@@ -1,6 +1,6 @@
 header {
     background-color: var(--blue-dark);
-    color: #fff;
+    color: rgb(235, 233, 233);
 }
 
 .logo img {
@@ -30,7 +30,7 @@ header {
 }
 
 .formPerquisa select {
-    background-color: #dadada;
+    background-color: #acaaaf;
     padding-left: 10px;
     width: 35%;
     border-top-left-radius: 10px;

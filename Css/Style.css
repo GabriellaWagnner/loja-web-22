@@ -90,7 +90,7 @@ section {
 }
 
 .produto-item div {
-    background-color: aqua;
+    background-color: rgb(78, 99, 99);
     height: 100%;
     min-height: 100px;
     max-height: 130px;
